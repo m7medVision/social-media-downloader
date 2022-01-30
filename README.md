@@ -53,7 +53,7 @@ let link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // here put the link
 
 ## Importing in Deno
 ```javascript
-import * as dl from 'https://deno.land/x/social_media_downloader@v1/mod.ts';
+import * as dl from 'https://deno.land/x/social_media_downloader@v1.0.2/mod.ts';
 ```
 
 ## Using in Deno
