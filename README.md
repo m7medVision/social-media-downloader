@@ -1,5 +1,5 @@
 # Social Media Downloader
-This is a simple library in Node Js and Deno to download videos from social media websites. It supports TikTok, Twitter, Youtube only. if want any other social media website, please open an issue.<br>
+This is a simple library in Node Js and Deno to download videos from social media websites. It supports TikTok, Twitter, Youtube only. if want any other social media website, please open an issue.<br><br>
 <img src="https://img.shields.io/github/issues/majhcc/social-media-downloader">&nbsp;
 <img src="https://img.shields.io/github/last-commit/majhcc/social-media-downloader">&nbsp;
 <img src="https://tokei.rs/b1/github/majhcc/social-media-downloader">&nbsp;
