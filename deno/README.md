@@ -7,7 +7,7 @@ This is a simple library in Node Js and Deno to download videos from social medi
 
 ## Importing in Deno
 ```javascript
-import * as dl from 'https://deno.land/x/social_media_downloader@v1/mod.ts';
+import * as dl from 'https://deno.land/x/social_media_downloader@v1.0.1/mod.ts';
 ```
 
 ## Using in Deno
