@@ -15,7 +15,6 @@ const youtube = async (url) => {
     return data;
 }
 
-// export all functions
 module.exports = {
     twitter,
     tiktok,

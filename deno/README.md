@@ -4,52 +4,7 @@ This is a simple library in Node Js and Deno to download videos from social medi
 <img src="https://img.shields.io/github/last-commit/majhcc/social-media-downloader">&nbsp;
 <img src="https://tokei.rs/b1/github/majhcc/social-media-downloader">&nbsp;
 <img src="https://img.shields.io/github/license/majhcc/social-media-downloader">&nbsp;
-<img src="https://img.shields.io/bundlephobia/min/social_media_downloader">&nbsp;
-
-## Installing
-```sh
-npm install social_media_downloader
-```
-
-## Importing in node js
-```javascript
-const dl = require("social_media_downloader");
-```
-
-## Using in node js
-
-## Tiktok
-```javascript
-let link = "https://www.tiktok.com/@billieeilish/video/7014570556607433990"; // here put the link
-(
-    async () => {
-        let result = await dl.tiktok(link); // The result is a json
-        console.log(result);
-    }
-)();
-```
-
-## Twitter
-```javascript
-let link = "https://twitter.com/AJArabic/status/1476130879437037569"; // here put the link
-(
-    async () => {
-        let result = await dl.twitter(link); // The result is a json
-        console.log(result);
-    }
-)();
-```
-
-## Youtube
-```javascript
-let link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // here put the link
-(
-    async () => {
-        let result = await dl.twitter(link); // The result is a json
-        console.log(result);
-    }
-)();
-```
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fcache-size%2Fhttps%2Fdeno.land%2Fx%2Fsocial_media_downloader%40Latest%2Fmod.ts">&nbsp;
 
 ## Importing in Deno
 ```javascript
