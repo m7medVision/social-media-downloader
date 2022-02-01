@@ -7,7 +7,7 @@ This is a simple library in Node Js and Deno to download videos from social medi
 
 ## Importing in Deno
 ```javascript
-import * as dl from 'https://deno.land/x/social_media_downloader@v1.0.2/mod.ts';
+import * as dl from 'https://deno.land/x/social_media_downloader/mod.ts';
 ```
 
 ## Using in Deno
@@ -27,5 +27,11 @@ console.log(result);
 ## Youtube
 ```javascript
 const result = await dl.youtube('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+console.log(result);
+```
+
+## Snapchat
+```javascript
+const result = await dl.snapchat('username_HERE');
 console.log(result);
 ```

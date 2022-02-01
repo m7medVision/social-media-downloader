@@ -13,3 +13,8 @@ export const youtube = async (url: string) => {
     const data = await response.json();
     return data;
 }
+export const snapchat = async (username: string) => {
+    const response = await fetch(`https://server1.majhcc.xyz/api/snapchat?username=` + username);
+    const data = await response.json();
+    return data;
+}

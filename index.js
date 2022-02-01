@@ -14,10 +14,16 @@ const youtube = async (url) => {
     const data = await response.data;
     return data;
 }
+const snapchat = async (username) => {
+    const response = await axios.get(`https://server1.majhcc.xyz/api/snapchat?username=` + username);
+    const data = await response.data;
+    return data;
+}
 
 module.exports = {
     twitter,
     tiktok,
-    youtube
+    youtube,
+    snapchat
 }
 

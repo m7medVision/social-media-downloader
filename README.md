@@ -1,5 +1,5 @@
 # Social Media Downloader
-This is a simple library in Node Js and Deno to download videos from social media websites. It supports TikTok, Twitter, Youtube only. if want any other social media website, please open an issue.<br><br>
+This is a simple library in Node Js and Deno to download videos from social media websites. It supports TikTok, Twitter, Youtube, and SnapChat. if want any other social media website, please open an issue.<br><br>
 <img src="https://img.shields.io/github/issues/majhcc/social-media-downloader">&nbsp;
 <img src="https://img.shields.io/github/last-commit/majhcc/social-media-downloader">&nbsp;
 <img src="https://tokei.rs/b1/github/majhcc/social-media-downloader">&nbsp;
@@ -45,15 +45,25 @@ let link = "https://twitter.com/AJArabic/status/1476130879437037569"; // here pu
 let link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // here put the link
 (
     async () => {
-        let result = await dl.twitter(link); // The result is a json
+        let result = await dl.youtube(link); // The result is a json
         console.log(result);
+    }
+)();
+```
+## Youtube
+```javascript
+let username = "hatanbado"; // here put the username
+(
+    async () => {
+        const data = await dl.snapchat(username); // The result is a json
+        console.log(data);
     }
 )();
 ```
 
 ## Importing in Deno
 ```javascript
-import * as dl from 'https://deno.land/x/social_media_downloader@v1.0.2/mod.ts';
+import * as dl from 'https://deno.land/x/social_media_downloader/mod.ts';
 ```
 
 ## Using in Deno
@@ -73,5 +83,11 @@ console.log(result);
 ## Youtube
 ```javascript
 const result = await dl.youtube('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+console.log(result);
+```
+
+## Snapchat
+```javascript
+const result = await dl.snapchat('username_HERE');
 console.log(result);
 ```
