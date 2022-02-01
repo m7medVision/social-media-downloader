@@ -50,7 +50,7 @@ let link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // here put the link
     }
 )();
 ```
-## Youtube
+## SnapChat
 ```javascript
 let username = "hatanbado"; // here put the username
 (
