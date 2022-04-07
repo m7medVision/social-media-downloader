@@ -10,7 +10,7 @@ const tiktok = async (url) => {
     return data;
 }
 const youtube = async (url) => {
-    const response = await axios.get(`https://api-v1.majhcc.com/api/yt?url=` + url);
+    const response = await axios.get(`https://api-v1.majhcc.com/api/dl/yt?url=` + url);
     const data = await response.data;
     return data;
 }

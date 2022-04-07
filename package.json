@@ -1,6 +1,6 @@
 {
   "name": "social_media_downloader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a simple library in Node Js and Deno to download videos from social media websites. It supports TikTok, Twitter, Youtube, and SnapChat. if want any other social media website, please open an issue.",
   "main": "index.js",
   "scripts": {
